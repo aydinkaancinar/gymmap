@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 1.5em;
+  height: 100%;
+  grid-gap: 50px;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+.header{
+  grid-area: header;
+}
+
+.main{
+  grid-area: main;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  grid-area: footer;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-shadow: 7px 4px -7px #888888;
+  bottom: 0;
+}
+
+#root{
+  height: 100%;
+}
+
+.border{
+  margin-left: 320px;
+  padding: 40px;
+  border: 2px solid #eaeaea;
+  min-height: 90%;
+  height: 90%;
+  width: 60%;
+  border-radius: 0.5em;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px #888888;
+  background-color: whitesmoke;
+}
+
+.page-title{
+  font-size: 3em;
+  width: 100%;
+}
+
+.text{
+  padding: 1em;
+  height: 100%;
+}
+
+.page-items{
+  font-size: 2em;
+  padding: .5em;
+}
+
+.table{
+  width: 100%;
+}
+
+.table-button{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  background-color: #ff2e63;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #888888;
+  border-radius: 0.5em;
+  margin: 5px;
+  transition: transform .2s;
+  font-weight: 500;
+}
+
+.button:hover{
+  background-color: #ff2e63;
+  color: black;
+  transform: scale(1.1);
+}
+
+.button-joined{
+  background-color: #419b2f;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #888888;
+  border-radius: 0.5em;
+  margin: 5px;
+  transition: transform .2s;
+  font-weight: 500;
+}
+
+.button-joined:hover{
+  background-color: #419b2f;
+  color: black;
+  transform: scale(1.1);
+}
+
+.title-button{
+  height: 100%;
+  width: 20%;
+  float: right;
+  margin-top: 25px;
+}
+
+.main-title{
+  height: 100%;
+  width: 40%;
+  float: left;
+}
+
+.myTable { 
+  width:100%; 
+}
+
+.myTable th { 
+  background-color:#e25651;
+  color:white;
+  width:20%; 
+}
+.myTable td, .myTable th {
+   padding:5px;
+   border:0; 
+   text-align: center;
+  }
+
+.myTable td { 
+  border-bottom:2px solid #fd2626; 
+}
+
+.event{
+  display: flex;
+  width: 100%;
+}
+
+.event-info{
+  padding: 2em;
+  width: 60%;
+}
+
+.event-picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  align-items: center;
+  margin: auto;
+}
+
+.button-padding {
+  margin: auto;
+}
+
+.input-box{
+  padding-left: 2em;;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.-back-button-padding {
+  padding: 2em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icon-picture{
+  height: 25px;
+  width: 25px;
+}
+
+.text-map{
+  padding: 1em;
+  height: 80%;
+  margin-bottom: 10%;
+}
+
+.to-the-right{
+  float: right;
+  width: 100px;
+}
+
+.input-box-style{
+  width: calc(100% - 20px - 20px);
+  height: 45px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 0.1em;
+  font-size: 2em;
+  background-position: .35em 0.6em;
+  margin-bottom: 10px;
+}
+
+.react-datepicker-wrapper {
+  width: calc(100%);
+  display: inline-block;
+  padding: 0;
+  border: 0;
+}
+
+.input-box-style-login{
+  width: 100%;
+  height: 45px;
+
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 0.1em;
+  font-size: 1em;
+  background-position: .35em 0.6em;
+  margin-bottom: 10px;
+}
+
+.css-2b097c-container {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  box-sizing: border-box;
+}

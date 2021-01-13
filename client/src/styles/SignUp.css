@@ -1,0 +1,53 @@
+.SignUpFields {
+    font-size: 1.5em;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    margin-top: 100px
+}
+
+.SignUpButton {
+	padding: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    margin-top: 10px;
+    background-color: #ff2e63;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px #888888;
+    border-radius: 0.5em;
+    transition: transform .2s;
+}
+
+.SignUpButton:hover {
+    transform: scale(1.1);
+}
+
+.SignUpBackButton {
+    padding: 0.5em;
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 40px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.invalidPrompt {
+    font-size: 1em;
+    color:red;
+    text-align: center;
+}

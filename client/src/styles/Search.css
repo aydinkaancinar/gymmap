@@ -1,0 +1,26 @@
+.input {
+    background-color: white;
+    background-image: url('/searchicon.png');
+    background-position: .35em 0.6em;
+    background-size: 1em;
+    background-repeat: no-repeat;
+    border: 0.5px solid white;
+    border-radius: 20px;
+    height: 2em;
+    width:100%;
+    padding-left: 20px;
+}
+
+.search-result {
+    display: grid;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    border: 0.1px solid black;
+    border-radius: 0.5em;
+    z-index: 1;
+    position: relative;
+    text-align: left;
+    text-indent: 2px;
+}

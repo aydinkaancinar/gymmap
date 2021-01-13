@@ -1,0 +1,55 @@
+.ProfileContainer {
+    position: relative;
+    top: 150px;
+    left: 20px;
+    /* 10 em is for the links. 31px is the img + shadow. Resize if img is resized */
+    height: calc(12em + 31px);
+    width: 200px;
+    box-shadow: 2px 2px 5px #888888;
+    font-size: large;
+    font-weight: 800;
+    position: fixed;
+    background-color: whitesmoke;
+    z-index: 20;
+    border-radius: 0.5em;
+    border: 2px solid #eaeaea;
+}
+
+.ProfileNavLink {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    padding-bottom: 0.5em;
+    top: -70px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: transform .2s;
+}
+
+.ProfileNavLink:hover{
+    width: 200px;
+    border-radius: 0.5em;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px #888888;
+    background-color: rgb(223, 223, 223);
+  }
+
+.ProfilePic {
+    position: relative;
+	border-radius: 50%;
+    box-shadow: 1px 1px 3px  #888888;
+    width: 100px;
+    top: -70px;
+    /* 100 - half size of img to center */
+    left: calc(100px - 50px);
+    box-shadow: 2px 2px 5px #888888;
+    border: 3px solid #ff2e63;
+    transition: transform .2s;
+}
+
+.ProfilePic:hover {
+    border: 6px solid #ff2e63;
+    transform: scale(1.2);
+}
+

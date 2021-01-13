@@ -1,0 +1,40 @@
+.EventBg {
+    color: green;
+    margin-left: 10px;
+}
+
+.ActivityBg {
+    color: blue;
+    margin-left: 10px;
+}
+
+
+#crossbg {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border: 1px solid black;
+  float: right;
+  margin-right: 10px;
+
+}
+.deleteBTN {
+  float: right;
+}
+
+.leftcross {
+  height: 25px;
+  width: 2px;
+  margin-left: 12px;
+  background-color: white;
+  transform: rotate(45deg);
+  Z-index: 1;
+}
+
+.rightcross {
+  height: 25px;
+  width: 2px;
+  background-color: white;
+  transform: rotate(90deg);
+  Z-index: 2;
+}
