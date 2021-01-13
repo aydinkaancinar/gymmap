@@ -1,5 +1,12 @@
-# team26
 Try out the deployed demo for [GymMap](https://infinite-garden-43562.herokuapp.com)
+
+## Contributors
+
+[Kaan Cinar](https://github.com/aydinkaancinar)
+
+[Kameron Sturgess](https://github.com/KameronSturgess)
+
+[Akshat Jagga](https://github.com/akshatjagga)
 
 ## Libraries
 
